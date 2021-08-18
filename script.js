@@ -4,7 +4,6 @@ alert("Welcome to BlackJack \n Please hit OK to proceed");
 var playerScore = 0;
 var playerHand = [];
 
-/*
 var addCard = () => {
   var newCard = cardDeck[Math.floor(Math.random() * cardDeck.length)];
   playerHand.push(newCard);
@@ -71,7 +70,7 @@ var hitOrStay = () => {
 freshStart();
 hitOrStay();
 
-*/
+/*
 
 var addAceOne = function () {
   playerHand.push(cardDeck[51]);
@@ -175,3 +174,5 @@ console.log(countHand(playerScore));
 
 addThree();
 console.log(countHand(playerScore));
+
+*/
